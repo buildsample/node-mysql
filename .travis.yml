@@ -21,7 +21,7 @@ after_success:
  - echo  "success"
  
 after_failure:
- - echo "Failed"
+ - echo "Failed build"
 
 
 env:
