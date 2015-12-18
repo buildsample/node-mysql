@@ -1,18 +1,5 @@
 language: node_js
-build_image: drydock/u14nodall:tip
-
-language: node_js
-
-node_js:
-  - "0.10"
-
-services:
-  - selenium
-  - mysql
-
-script:
- - xvfb-run --server-args="-ac" npm test
-
+#build_image: drydock/u14nodall:tip
 node_js:
  # - '0.6'
   - '0.8'
